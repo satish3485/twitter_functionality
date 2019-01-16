@@ -1,0 +1,38 @@
+Create an application similar to Twitter. DO NOT BUILD A USER INTERFACE,
+just a backend exposing a well-formed API. You can use
+anything you want for the server and storage layer.
+The API must adhere to REST standards (as much as production APIs usually do).
+Focus on completing the basic functionality before moving on to the rest.
+The code you write is expected to be production quality, it should:
+
+* Have correct formatting
+* Have resilient error handling
+* Responses should have correct grammar and messaging
+* Architecture should be scalable, easy to maintain
+* Code should have proper documentation
+
+### Basic Functionality (required)
+
+* User registration using unique username and a password
+* User login (Including session maintenance using any means you're comfortable with)
+
+These two APIs must be *perfect*. DO NOT move on to the remainder of the assignment until these are completed.
+ If either of these APIs are missing or incomplete, the remained of the assignment WILL NOT be scored at all.
+
+### Extended Functionality
+
+Start *only* once the Basic Functionality is complete. Complete these *in the order specified*
+
+* Follow, unfollow
+* Create, read, delete tweet (Twitter doesn't support update, you won't need to either.)
+* Unit/Integration tests for *all* endpoints you've built so far (Basic & Extended Functionality)
+
+### Extra Credit
+
+Start *only* once basic & extended functionality is complete. The following endpoints are for bonus points,
+and you *SHOULD NOT attempt them until all previous requirements are completed*. If any API endpoints from
+the Basic & Extended Functionality sections are missing or incomplete, you *WILL NOT* be scored on the extra credit endpoints.
+
+* Like/unlike a tweet
+* Retweet
+* Replies and threading
